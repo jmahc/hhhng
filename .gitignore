@@ -1,0 +1,22 @@
+# Dependencies
+node_modules
+
+# Environments
+.env
+*.env
+
+# Logs
+logs
+*.log
+
+# macOS generated files
+.DS_Store
+
+# Production
+build
+
+# Testing
+coverage
+
+# Yarn
+yarn.*
