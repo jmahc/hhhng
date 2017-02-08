@@ -1,7 +1,7 @@
 import { combineReducers } from 'redux';
-import todos from './todos';
-import visibilityFilter from './visibilityFilter';
+import postsBySubreddit from './posts';
+import selectedSubreddit from './subreddit';
 
-const todoApp = combineReducers({ todos, visibilityFilter });
+const rootReducer = combineReducers({ postsBySubreddit, selectedSubreddit });
 
-export default todoApp;
+export default rootReducer;
